@@ -1,0 +1,51 @@
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    display: block;
+    }
+    body {
+    font-family: "Poppins", sans-serif;
+    }
+    nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    }
+    nav, .nav-links {
+    display: flex;
+    }
+    .logo {
+    font-size: 2rem;
+    }
+    #profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    }   
+    section {
+    padding-top: 4vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    }  
+    .pic{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    }  
+    .txt {
+    align-self: center;
+    text-align: center;
+    } 
+    img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    }
+    .btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    }
