@@ -1,20 +1,30 @@
-    * {
+* {
     margin: 0;
     padding: 0;
     }
+    .logo{
+        font-family: "Borel", cursive;
+        font-weight:400;
+        font-style: normal;
+        color:rgb(255, 255, 255);
+        margin-top: 25px;
+      }
     body {
     display: block;
-    }
-    body {
+    background-color:rgb(64 85 72);
     font-family: "Poppins", sans-serif;
+    color: white;
     }
     nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    font-weight: 500;
+    padding: 10px;
     }
-    nav, .nav-links {
+    nav{
     display: flex;
+    position: sticky;
     }
     .logo {
     font-size: 2rem;
@@ -26,26 +36,92 @@
     height: 80vh;
     }   
     section {
-    padding-top: 4vh;
-    margin: 0 10rem;
+    /* border: solid 0.5px grey; */
+    padding: 5%;
     box-sizing: border-box;
     min-height: fit-content;
     }  
     .pic{
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin:50px
     }  
     .txt {
     align-self: center;
     text-align: center;
+    padding: 3px;
+   
     } 
     img {
     overflow-clip-margin: content-box;
     overflow: clip;
+    clip-path: circle(50%);
     }
     .btn{
     display: flex;
     justify-content: center;
     gap: 1rem;
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    .links li{
+        display: inline-block;
+        padding: 4px;
+    }
+    .links li a:hover{
+        color:white;
+        background-color: rgb(108, 100, 100);
+        border-radius: 5px ;
+        border: solid 0.5px white;
+        padding: 4px;
+    }
+    #cnt{
+        background-color: rgb(255, 57, 57);
+        color: white;
+        padding: 4px;
+        border-radius: 5px;
+        margin-left: 1px;
+    }
+    #cnt:hover{
+        color:rgb(255, 57, 57);
+        background-color: rgb(255, 240, 240);
+    }
+    #ct{
+        text-align: center;
+        background-color:rgb(51, 47, 47);
+        color: white;
+        padding: 5px;
+    
+    }
+    #abt{
+        margin-left:40vh;
+        padding: 30px;
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+    button{
+        background-color:rgb(255, 57, 57);
+        color: rgb(252, 252, 252);
+        border-radius: 8px;
+        padding: 6px;
+        margin: 5px;
+        font-weight: 600;
+    }
+    button:hover{
+        background-color:white;
+        color: rgb(255, 57, 57);
+    }
+    .fi{
+       font-size: smaller;
+       font-size: 13px;
+    }
+    .se{
+        font-size: 16px;
+        font-family: monospace;
+        margin-bottom: 8px;
+    }
+    h1{
+        font-weight: bold;
     }
