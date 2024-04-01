@@ -125,3 +125,43 @@
     h1{
         font-weight: bold;
     }
+    .contacts{
+        padding: 5px;
+        text-align: center;}
+    .ending{
+        text-align: center;
+        padding: 20px 30px 20px 30px;
+    }
+    .socialbtns, .socialbtns ul, .socialbtns li {
+        margin:0px;
+        padding: 5px;
+      }
+      
+      .socialbtns li {
+          list-style: none outside none;
+          display: inline-block;
+      }
+      
+      .socialbtns .fa {
+          width: 40px;
+          height: 28px;
+          color:  rgb(51, 47, 47);
+          background-color: #FFF;
+          border: 1px solid rgb(51, 47, 47);
+          padding-top: 12px;
+          border-radius: 22px;
+      }
+      .socialbtns .fa:hover {
+          color: #FFF;
+          background-color: rgb(51, 47, 47);
+          border: 1px solid  rgb(51, 47, 47);
+      }
+      .socialbtns li a{
+        text-decoration: none;
+      }
+      #footer{
+          background-color: rgb(51, 47, 47);
+          margin: 0px;
+          margin-bottom: 0px;
+          padding: 0px;
+      }
