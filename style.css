@@ -124,6 +124,7 @@
     }
     h1{
         font-weight: bold;
+        text-align: center;
     }
     .contacts{
         padding: 5px;
@@ -165,3 +166,16 @@
           margin-bottom: 0px;
           padding: 0px;
       }
+      .pj {
+        display: inline-block;
+        align-self: center;
+        border: solid white;
+        border-radius: 10px;
+        background-color: white;
+        color: tomato;
+        padding: 25px;
+        margin: 35px;
+      }
+    #pjct{
+        align-items: center;
+    }
