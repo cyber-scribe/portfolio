@@ -52,7 +52,7 @@
     padding: 3px;
    
     } 
-    img {
+    .pic img {
     overflow-clip-margin: content-box;
     overflow: clip;
     clip-path: circle(50%);
@@ -179,3 +179,13 @@
     #pjct{
         align-items: center;
     }
+    .projects-container {
+        display:inline-block;
+        flex-wrap: wrap;
+      }
+      
+      .project {
+        width: calc(33.33% - 20px);
+        margin: 20px;
+        padding: 10px;
+      }      
