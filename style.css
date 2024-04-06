@@ -232,3 +232,83 @@
         transform: scale(1);
       }
       
+      .skills{
+        padding: 5rem 0 2.5rem 0;
+    }
+    .skills .row{
+        margin: 1rem 0;
+    }
+    .skills .item{
+        padding: 0.5rem 0;
+        margin: 0.3rem 0;
+    }
+    .skills .item-text{
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 600;
+        font-size: 1.3rem;
+        position: relative;
+    }
+    .skills .item-text span:last-child{
+        position: absolute;
+    }
+    .skills .item-text .w-90{
+        margin-left: 85%;
+    }
+    .skills .item-text .w-75{
+        margin-left: 70%;
+    }
+    .skills .item-text .w-85{
+        margin-left: 80%;
+    }
+    .skills .item-text .w-80{
+        margin-left: 75%;
+    }
+    .skills .item-text .w-60{
+        margin-left: 55%;
+    }
+    .skills .item-text .w-68{
+        margin-left: 63%;
+    }
+    .progress{
+        margin: 0.8rem 0;
+        border-radius: 10px;
+        height: 16px;
+        width: 100%;
+        background-color: var(--nero);
+        overflow: hidden;
+    }
+    .progress-bar{
+        background: var(--green);
+        height: 100%;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+    .progress-bar.w-90{
+        width: 90%;
+    }
+    .progress-bar.w-75{
+        width: 75%;
+    }
+    .progress-bar.w-85{
+        width: 85%;
+    }
+    .progress-bar.w-80{
+        width: 80%;
+    }
+    .progress-bar.w-60{
+        width: 60%;
+    }
+    .progress-bar.w-68{
+        width: 68%;
+    }
+    
+
+    :root{
+      --poppins: 'Poppins', sans-serif;
+      --sans: 'Open Sans', sans-serif;
+      --green: #9cd35c;
+      --black: #111;
+      --nero: #252525;
+      --transition: all 0.4s ease;
+  }
