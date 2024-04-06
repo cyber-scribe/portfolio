@@ -166,29 +166,6 @@
           margin-bottom: 0px;
           padding: 0px;
       }
-      /* .pj {
-        display: inline-block;
-        align-self: center;
-        border: solid white;
-        border-radius: 10px;
-        background-color: white;
-        color: tomato;
-        padding: 25px;
-        margin: 35px;
-      }
-    #pjct{
-        align-items: center;
-    }
-    .projects-container {
-        display:inline-block;
-        flex-wrap: wrap;
-      }
-      
-      .project {
-        width: calc(33.33% - 20px);
-        margin: 20px;
-        padding: 10px;
-      }       */
       .port-text {
         padding: 2rem 0;
         text-align: center;
@@ -228,40 +205,30 @@
       }
       .portfolios .portfolio-item .hover-items h3 {
         font-size: 1.5rem;
-        color:black;
+        color: var(--color-white);
         margin-bottom: 1.5rem;
       }
-      .portfolios .portfolio-item .hover-items .icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .portfolios .portfolio-item .hover-items .icons .icon {
+      .portfolios .portfolio-item .hover-items .socialbtns {
         background-color: var(--color-primary);
         border-radius: 50%;
         width: 50px;
         height: 50px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 1rem;
+        margin:0px;
+        padding: 5px;
         cursor: pointer;
         transition: all 0.4s ease-in-out;
-      }
-      .portfolios .portfolio-item .hover-items .icons .icon i {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
         color: var(--color-white);
-        margin: 0 1rem;
+        list-style: none outside none;
       }
-      .portfolios .portfolio-item .hover-items .icons .icon:hover {
-        background-color: var(--color-white);
+      .portfolio-item:hover .image {
+        opacity: .5;
+        transform: scale(1);
       }
-      .portfolios .portfolio-item .hover-items .icons .icon:hover i {
-        color: var(--color-primary);
-      }
-      
       .portfolio-item:hover .hover-items {
-        opacity: 1;
+        opacity:1;
         transform: scale(1);
       }
       
