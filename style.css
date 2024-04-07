@@ -252,7 +252,7 @@
     .skills .item-text span:last-child{
         position: absolute;
     }
-    .skills .item-text .w-90{
+    .skills .item-text .w-95{
         margin-left: 85%;
     }
     .skills .item-text .w-75{
