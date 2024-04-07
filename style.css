@@ -1,4 +1,4 @@
-* {
+   * {
     margin: 0;
     padding: 0;
     }
@@ -44,12 +44,14 @@
     .pic{
     height: 400px;
     width: 400px;
-    margin:50px
+    margin: 15px;
     }  
     .txt {
     align-self: center;
     text-align: center;
-    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    
    
     } 
     .pic img {
@@ -96,10 +98,10 @@
     
     }
     #abt{
-        margin-left:40vh;
+        text-align: center;
         padding: 30px;
-        display: inline-flex;
-        flex-direction: row-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
     button{
         background-color:rgb(255, 57, 57);
@@ -172,7 +174,8 @@
       }
       
       .portfolios {
-        display: inline-flex;
+        display:inline-flex;
+        flex-direction: row;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
         margin-top: 3rem;
