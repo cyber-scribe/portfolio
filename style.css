@@ -252,7 +252,7 @@
     .skills .item-text span:last-child{
         position: absolute;
     }
-    .skills .item-text .w-95{
+    .skills .item-text .w-90{
         margin-left: 85%;
     }
     .skills .item-text .w-75{
@@ -284,23 +284,23 @@
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
     }
-    .progress-bar.w-90{
-        width: 90%;
+    .progress-bar.w-95{
+        width: 95%;
     }
     .progress-bar.w-75{
         width: 75%;
     }
-    .progress-bar.w-85{
-        width: 85%;
-    }
-    .progress-bar.w-80{
-        width: 80%;
-    }
     .progress-bar.w-60{
         width: 60%;
     }
-    .progress-bar.w-68{
-        width: 68%;
+    .progress-bar.w-90{
+        width: 90%;
+    }
+    .progress-bar.w-40{
+        width: 40%;
+    }
+    .progress-bar.w-20{
+        width: 20%;
     }
     
 
