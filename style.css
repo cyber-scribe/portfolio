@@ -49,8 +49,8 @@
     .txt {
     align-self: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: inline-flexbox;
+    
     
    
     } 
