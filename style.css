@@ -102,6 +102,7 @@
         padding: 30px;
         display: flex;
         flex-direction: column-reverse;
+        justify-content:space-between;
     }
     button{
         background-color:rgb(255, 57, 57);
