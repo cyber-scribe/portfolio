@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     }
+    body {
+        display: block;
+        background-color:rgb(64 85 72);
+        font-family: "Poppins", sans-serif;
+        color: white;
+        }
     .logo{
         font-family: "Borel", cursive;
         font-weight:400;
         font-style: normal;
         color:rgb(255, 255, 255);
         margin-top: 25px;
+        font-size: 2rem;
       }
-    body {
-    display: block;
-    background-color:rgb(64 85 72);
-    font-family: "Poppins", sans-serif;
-    color: white;
-    }
     nav {
     justify-content: space-around;
     align-items: center;
@@ -25,9 +26,6 @@
     nav{
     display: flex;
     position: sticky;
-    }
-    .logo {
-    font-size: 2rem;
     }
     section {
     /* border: solid 0.5px grey; */
