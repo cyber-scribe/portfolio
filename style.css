@@ -276,7 +276,7 @@
         overflow: hidden;
     }
     .progress-bar{
-        background: var(--green);
+        background:rgb(196, 188, 188);
         height: 100%;
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
