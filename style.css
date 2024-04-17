@@ -94,17 +94,17 @@
     width: 400px;
     margin: 15px;
     }   */
-    /* .txt {
+    .txt {
     align-self: center;
     text-align: center;
     display: inline-flexbox;
-     }  */
+     } 
     /* .pic img {
     overflow-clip-margin: content-box;
     overflow: clip;
     clip-path: circle(50%);
     } */
-    /* .fi{
+    .fi{
         font-size: smaller;
         font-size: 13px;
      }
@@ -112,7 +112,7 @@
          font-size: 16px;
          font-family: monospace;
          margin-bottom: 8px;
-     } */
+     }
     button{
         background-color:rgb(255, 57, 57);
         color: rgb(252, 252, 252);
@@ -317,36 +317,29 @@
       --nero: #252525;
       --transition: all 0.4s ease;
   }
-
-
-  /* .about {
-    background: rgb(255, 255, 255);
-  } */
-  .about .row {
+  .about{
+    height: 100vh;
+    padding: 45px 0px 45px 0px;
+  }
+  .row {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
-    padding: 4rem;
   }
   .about .row .image {
-    text-align: center;
-    flex: 1 1 35rem;
+    text-align: left;
   }
   .about .row .image img {
-    margin: 4rem;
-    width: 30rem;
-    height: auto;
-    border-radius: 5%;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    mix-blend-mode: luminosity;
-    transition: 0.3s;
-    cursor: pointer;
+  margin: 4rem;
+    height:300px;
+    width:300px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    clip-path: circle(50%);
   }
-  .about .row .image img:hover {
-    mix-blend-mode: normal;
-  }
-  .about .row .content {
+  /* .about .row .content {
     flex: 1 1 45rem;
     padding: 3rem;
   }
@@ -366,7 +359,7 @@
     font-family: "Nunito";
     font-weight: 600;
     text-transform: none;
-  }
+  } */
   .about .row .content .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -388,8 +381,8 @@
     border-radius: 0.5em;
     transition: 0.3s;
     color: #fff;
-    background: #2506ad;
-    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    background: #a2db97;
+    
     font-family: "Nunito", sans-serif;
   }
   .resumebtn .btn span {
