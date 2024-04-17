@@ -1,7 +1,9 @@
-   * {
+    /* whole page */
+    * {
     margin: 0;
     padding: 0;
     }
+    
     body {
         display: block;
         background-color:rgb(70 96 97);
@@ -72,38 +74,33 @@
         padding: 5px;
     
     }
-    /* #abt{
-        text-align: center;
-        align-items: center;
-        /* padding: 30px; */
-        /* display: flex;
-        justify-content: center; */
-        /* width: 100%; */
-        /* position: relative; */
-        /* top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -25px; */
-        /* display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
-    } */ 
-    /* .pic{
-    height: 400px;
-    width: 400px;
-    margin: 15px;
-    }   */
+
+    .about{
+      padding: 45px 0px 45px 0px;
+    }
+    .rows {
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .about .rows .image {
+      text-align: left;
+    }
+    .about .rows .image img {
+    margin: 4rem;
+      height:300px;
+      width:300px;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+      clip-path: circle(50%);
+    }
     .txt {
     align-self: center;
     text-align: center;
     display: inline-flexbox;
      } 
-    /* .pic img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    clip-path: circle(50%);
-    } */
     .fi{
         font-size: smaller;
         font-size: 13px;
@@ -242,6 +239,7 @@
     }
     .skills .row{
         margin: 1rem 0;
+        padding: 50px 25px 0px 25px;
     }
     .skills .item{
         padding: 0.5rem 0;
@@ -317,102 +315,4 @@
       --nero: #252525;
       --transition: all 0.4s ease;
   }
-  .about{
-    height: 100vh;
-    padding: 45px 0px 45px 0px;
-  }
-  .row {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  .about .row .image {
-    text-align: left;
-  }
-  .about .row .image img {
-  margin: 4rem;
-    height:300px;
-    width:300px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    clip-path: circle(50%);
-  }
-  /* .about .row .content {
-    flex: 1 1 45rem;
-    padding: 3rem;
-  }
-  .about .row .content h3 {
-    color: rgb(27, 27, 27);
-    font-size: 2.5rem;
-  }
-  .about .row .content .tag {
-    font-size: 1.4rem;
-    color: #020133;
-    font-weight: 600;
-    margin-top: 1rem;
-  }
-  .about .row .content p {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-    font-family: "Nunito";
-    font-weight: 600;
-    text-transform: none;
-  } */
-  .about .row .content .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    font-family: "Nunito";
-    font-weight: 600;
-  }
-  .about .row .content .box-container .box p {
-    text-transform: none;
-  }
-  .about .row .content .box-container .box p span {
-    color: #011aff;
-  }
-  .resumebtn {
-    margin-top: 6rem;
-  }
-  .resumebtn .btn {
-    padding: 1.7rem 3rem;
-    border-radius: 0.5em;
-    transition: 0.3s;
-    color: #fff;
-    background: #a2db97;
-    
-    font-family: "Nunito", sans-serif;
-  }
-  .resumebtn .btn span {
-    font-weight: 600;
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-  }
-  .resumebtn .btn i {
-    margin-left: 0.3rem;
-    font-size: 1.2rem;
-    transition: 0.3s;
-  }
-   /* about media queries starts*/ 
-   /* @media screen and (max-width: 600px) {
-    .about .row .image {
-      margin-top: 2rem;
-    }
-    .about .row .image img {
-      margin: 0 auto;
-      width: 80%;
-      mix-blend-mode: normal;
-    }
-    .about .row {
-      padding: 0.5rem;
-      margin-bottom: 7rem;
-    }
-    .about .row .content {
-      padding: 1rem;
-    }
-    .about .row .content .box-container {
-      gap: 0;
-    }
-  }  */
+ 
