@@ -322,7 +322,7 @@
   /* .about {
     background: rgb(255, 255, 255);
   } */
-  /* .about .row {
+  .about .row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -401,9 +401,9 @@
     margin-left: 0.3rem;
     font-size: 1.2rem;
     transition: 0.3s;
-  } */
-  /* about media queries starts*/
-  /* @media screen and (max-width: 600px) {
+  }
+   /* about media queries starts*/ 
+   /* @media screen and (max-width: 600px) {
     .about .row .image {
       margin-top: 2rem;
     }
@@ -422,4 +422,4 @@
     .about .row .content .box-container {
       gap: 0;
     }
-  } */
+  }  */
