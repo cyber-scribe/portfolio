@@ -322,4 +322,68 @@
           padding: 0px;
       }
      
+      /* Add this CSS at the end of your existing CSS */
+
+/* Media query for screens smaller than 768px (typical mobile phones) */
+@media only screen and (max-width: 768px) {
+    /* Adjust the font size for smaller screens */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    /* Make the navigation menu responsive */
+    .links {
+        flex-direction: column;
+    }
+
+    .links li {
+        margin: 10px 0;
+    }
+
+    /* Make the section containing the about information responsive */
+    .about .rows .image img {
+        margin: 1rem 0;
+    }
+
+    /* Make the skills section responsive */
+    .skills .item {
+        width: 100%;
+    }
+
+    /* Make the portfolio section responsive */
+    .portfolios .portfolio-item {
+        flex: 1 1 100%;
+    }
+}
+
+/* Media query for screens smaller than 480px (smaller mobile phones) */
+@media only screen and (max-width: 320px) {
+    /* Adjust the font size for smaller screens */
+    .logo {
+        font-size: 1rem;
+    }
+
+    /* Adjust padding for smaller screens */
+    .about .rows .image img {
+        margin: 0.5rem 0;
+    }
+
+    /* Adjust font size for smaller screens */
+    .port-text {
+        font-size: 0.8rem;
+    }
+
+    /* Make the footer responsive */
+    #footer {
+        padding: 10px;
+    }
+
+    /* Make social icons in the footer responsive */
+    .socialbtns .fa {
+        width: 25px;
+        height: 25px;
+        padding-top: 5px;
+    }
+}
+
       
