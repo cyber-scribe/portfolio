@@ -328,10 +328,14 @@
     .logo {
         font-size:25px;
     }
-    .links ul{
+    .links{
         display:none;
     }
-
+    .about .rows .image img {
+        margin: 20px 10px;
+        height: 215px;
+        width: 215px;
+    }
     /* Make the skills section responsive */
     .skills .item {
         width: 100%;
