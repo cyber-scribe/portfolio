@@ -323,7 +323,7 @@
       }
 
 /* Media query for screens smaller than 768px (typical mobile phones) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
     /* Adjust the font size for smaller screens */
     .logo {
         font-size:25px;
@@ -348,37 +348,37 @@
 }
 
 /* Media query for screens smaller than 480px (smaller mobile phones) */
-@media only screen and (max-width: 320px) {
-    /* Adjust the font size for smaller screens */
+/* @media only screen and (max-width: 320px) {
+    /* Adjust the font size for smaller screens 
     .logo {
         font-size: 25px;
     }
     .links ul{
         display:none;
     }
-    /* Adjust padding for smaller screens */
+    /* Adjust padding for smaller screens
     .about .rows .image img {
         margin: 20px 10px;
         height: 145px;
         width: 145px;
     }
 
-    /* Adjust font size for smaller screens */
+    /* Adjust font size for smaller screens 
     .port-text {
         font-size: 0.8rem;
     }
 
-    /* Make the footer responsive */
+    /* Make the footer responsive 
     #footer {
         padding: 10px;
     }
 
-    /* Make social icons in the footer responsive */
+    /* Make social icons in the footer responsive
     .socialbtns .fa {
         width: 25px;
         height: 25px;
         padding-top: 5px;
     }
-}
+} */
 
       
