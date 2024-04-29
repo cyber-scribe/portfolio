@@ -321,6 +321,7 @@
           margin-bottom: 0px;
           padding: 0px;
       }
+      
 
 /* Media query for screens smaller than 768px (typical mobile phones) */
 @media only screen and (max-width: 768px) {
@@ -330,6 +331,9 @@
     }
     .links{
         display:none;
+    }
+    .material-symbols-outlined {
+        display: flex;
     }
     .about .rows .image img {
         margin: 20px 10px;
