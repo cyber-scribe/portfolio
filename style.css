@@ -91,12 +91,14 @@
           padding: 4px;
       }
       .material-symbols-outlined {
+        display: none;
         font-variation-settings:
         'FILL' 0,
         'wght' 400,
         'GRAD' 0,
         'opsz' 24
       }
+
       #cnt{
           background-color: rgb(255, 57, 57);
           color: white;
