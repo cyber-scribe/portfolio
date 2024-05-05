@@ -6,7 +6,8 @@
     /* body */
     body {
         display: block;
-        background-color:rgb(70 96 97);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXkEhUVgZqJFwVGhgU04L1x2RgIn618snKw&usqp=CAU);
+        
         font-family: "Poppins", sans-serif;
         color: white;
      }
