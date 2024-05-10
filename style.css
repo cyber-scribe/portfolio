@@ -7,6 +7,7 @@
     body {
         display: block;
         background-image: url(https://image.slidesdocs.com/responsive-images/docs/line-of-blue-circuit-boards-using-advanced-technology-page-border-background-word-template_f7cd6a0643__1131_1600.jpg);
+        backdrop-filter: blur(5px);
         font-family: "Poppins", sans-serif;
         color: white;
      }
@@ -91,7 +92,7 @@
           padding: 4px;
       }
       #material-symbols-outlined {
-        display: block;
+        display: none;
         font-variation-settings:
         'FILL' 0,
         'wght' 400,
@@ -112,7 +113,7 @@
       }
       #ct{
           text-align: center;
-          background-color:rgb(49 61 62);
+          background-color:rgb(0 26 51);
           color: white;
           padding: 5px;
       
@@ -310,22 +311,22 @@
       .socialbtns .fa {
           width: 40px;
           height: 28px;
-          color:  rgb(49 61 62);
+          color:  rgb(0 26 51);
           background-color: #FFF;
-          border: 1px solid rgb(49 61 62);
+          border: 1px solidrgb(0 26 51);
           padding-top: 12px;
           border-radius: 22px;
       }
       .socialbtns .fa:hover {
           color: #FFF;
-          background-color: rgb(49 61 62);
-          border: 1px solid  rgb(49 61 62);
+          background-color:rgb(0 26 51);
+          border: 1px solid rgb(0 26 51);
       }
       .socialbtns li a{
         text-decoration: none;
       }
       #footer{
-          background-color: rgb(49 61 62);
+          background-color: rgb(0 26 49);
           margin: 0px;
           margin-bottom: 0px;
           padding: 0px;
@@ -334,6 +335,8 @@
 
 /* Media query for screens smaller than 768px (typical mobile phones) */
 @media only screen and (max-width: 768px) {
+
+
     /* Adjust the font size for smaller screens */
     .logo {
         font-size:25px;
