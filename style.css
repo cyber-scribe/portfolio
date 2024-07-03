@@ -258,14 +258,15 @@
   }
   .progress-bar{
       background:rgb(159 247 247);
-      /* display: none; */
+      transform: scale(0);
       height: 100%;
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
   }
-  /* .progress-bar::after{
-    display:block;
-  } */
+  .progress-bar:hover{
+    transform: scale(1);
+    transition: margin-right .5s ;
+  }
   .progress-bar.w-95{
       width: 95%;
   }
