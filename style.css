@@ -251,10 +251,13 @@
   .progress{
       margin: 0.8rem 0;
       border-radius: 10px;
-      height: 16px;
+      height: 20px;
       width: 100%;
       background-color: var(--nero);
       overflow: hidden;
+  }
+  .progress:hover{
+    box-shadow: 4px 3px 4px rgb(24, 41, 41) ;
   }
   .progress-bar{
       background:rgb(159 247 247);
@@ -262,10 +265,6 @@
       height: 100%;
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
-  }
-  .progress-bar:hover{
-    transform: scale(1);
-    transition: margin-right .5s ;
   }
   .progress-bar.w-95{
       width: 95%;
