@@ -21,6 +21,10 @@
         color:rgb(255, 255, 255);
         margin-top: 25px;
         font-size: 2rem;
+        transition:.5s,.5s,.5s,.5s;
+      }
+      .logo:hover{
+        transform: translate(-10px, 2%);
       }
 
       /*  navigation bar*/
@@ -72,6 +76,7 @@
       overflow: clip;
       clip-path: circle(50%);
     }
+
     .btn{
       display: flex;
       justify-content: center;
