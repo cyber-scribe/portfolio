@@ -75,8 +75,14 @@
       overflow-clip-margin: content-box;
       overflow: clip;
       clip-path: circle(50%);
+      
     }
-
+    .about .rows .image .tilt{
+        transition: 1s;
+    }
+    .about .rows .image .tilt:hover{
+        transform: rotate(1turn);
+    }
     .btn{
       display: flex;
       justify-content: center;
