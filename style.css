@@ -83,10 +83,12 @@
     .about .rows .image .tilt:hover{
         transform: rotate(1turn);
     }
-    .btn{
+    .btn .f .s{ 
       display: flex;
       justify-content: center;
-      gap: 1rem;
+      /* gap: 1rem; */
+      border: none;
+      box-shadow: none;
       }
       a{
       text-decoration: none;
