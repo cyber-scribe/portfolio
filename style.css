@@ -40,7 +40,6 @@
 
     /* for all the sections */
     section {
-    /* border: solid 0.5px grey; */
     padding: 5%;
     box-sizing: border-box;
     min-height: fit-content;
