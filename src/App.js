@@ -5,18 +5,12 @@ import { Github, Linkedin, ExternalLink } from "lucide-react";
 
 const projects = [
   { id: 1, title: "Word Scramble Game", img: "A.png", github: "https://github.com/cyber-scribe/wordScrambleGame", live: "https://cyber-scribe.github.io/wordScrambleGame/" },
-  { id: 2, title: "Link to QR Generator", img: "B.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR", live: "https://link2qr.onrender.com/" },
+  { id: 2, title: "Link to QR Generator", img: "B.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR", live: "https://link2qr-qzej.onrender.com" },
   { id: 3, title: "E-Learning Management", img: "C.png", github: "https://github.com/cyber-scribe/MiniProject", live: "https://cyber-scribe.github.io/MiniProject/" },
-  { id: 4, title: "Password Analyzer", img: "D.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter.onrender.com/" },
-  { id: 5, title: "Temperature Convertor", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc.onrender.com/" },
-  { id: 6, title: "Weather App", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-rrnc.onrender.com/" },
+  { id: 4, title: "Password Analyzer", img: "D.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter-a22o.onrender.com" },
+  { id: 5, title: "Temperature Convertor", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc-m1vm.onrender.com" },
+  { id: 6, title: "Weather App", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-9g05.onrender.com"},
 ];
-
-// const skills = {
-//   Languages: ["C", "Python", "Java", "JavaScript", "TypeScript","SQL"],
-//   Frameworks: ["React.js", "MongoDB"],
-//   Tools: ["Git", "GitHub"],
-// };
 
 const skills = {
   "Languages": [
@@ -76,7 +70,6 @@ const [dark, setDark] = useState(false);
           {label}
         </a>
       ))}
-      {/* Dark/Light Toggle */}
       <button
         onClick={() => setDark(!dark)}
         className={`px-2 py-1 rounded-full border ${theme.border} ${theme.textAlt} ${theme.hover}`}
@@ -85,7 +78,6 @@ const [dark, setDark] = useState(false);
       </button>
     </nav>
 
-    {/* Mobile Hamburger */}
     <div className="md:hidden">
       <button
         onClick={() => setMenuOpen(!menuOpen)}
@@ -107,7 +99,6 @@ const [dark, setDark] = useState(false);
     </div>
   </div>
 
-  {/* Mobile Menu */}
   <motion.div
     initial={{ x: "100%" }}
     animate={{ x: menuOpen ? 0 : "100%" }}
@@ -119,14 +110,12 @@ const [dark, setDark] = useState(false);
         <a
           key={label}
           href={`#${label.toLowerCase()}`}
-          onClick={() => setMenuOpen(false)} // close menu when clicked
+          onClick={() => setMenuOpen(false)} 
           className={`${theme.text} hover:text-amber-400 transition `}
         >
           {label}
         </a>
       ))}
-
-      {/* Dark/Light Toggle */}
       <button
         onClick={() => setDark(!dark)}
         className={`px-2 py-1 rounded-full border ${theme.border} ${theme.textAlt} ${theme.hover}`}
@@ -190,12 +179,10 @@ const [dark, setDark] = useState(false);
         transition={{ type: "spring", stiffness: 200 }}
         className={`p-8 rounded-2xl ${theme.cardBg} border ${theme.border} shadow-lg flex flex-col`}
       >
-        {/* Category Title */}
         <h3 className={`text-xl font-semibold mb-6 ${theme.text} text-center`}>
           {category}
         </h3>
 
-        {/* Skill Tiles */}
         <div className="grid grid-cols-2 gap-3">
           {list.map((skill) => (
             <motion.div
@@ -281,7 +268,6 @@ const [dark, setDark] = useState(false);
             ))}
           </div>
 
-          {/* View More Button */}
           {projects.length > 3 && (
             <div className="mt-8 text-center">
               <button
@@ -308,7 +294,7 @@ const [dark, setDark] = useState(false);
           </div>
         </section>        
       </main>
-      {/* FOOTER */}
+
       <footer className={` py-6 text-center text-xs ${theme.text} border-t ${theme.border}`}>
           &copy; {new Date().getFullYear()} Vaidehi Dubey. All rights reserved.
         </footer>
