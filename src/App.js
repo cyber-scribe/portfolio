@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, ExternalLink } from "lucide-react";
 
@@ -27,7 +27,7 @@ const skills = {
 const experience = [
   {
     role: "Full Stack Developer Intern",
-    company: "EVO-A",
+    company: "EVO-A, Bareilly",
     duration: "Jul 2025 – Sep 2025",
     details: [
       "Enhanced UI and application logic for 021 AI, an AI that acts as a Startup Advisor.",
@@ -53,11 +53,11 @@ const [dark, setDark] = useState(false);
   };
 
   return (
-    <div className={`min-h-screen ${theme.bg} ${dark ? "text-gray-100" : "text-gray-900"} font-mono`}>
+    <div className={`min-h-screen ${theme.bg} ${dark ? "text-gray-100" : "text-gray-900"} font-mono overflow-x-hidden`}>
       {/* NAVBAR */}
-      <header className={`sticky top-0 z-40 ${theme.bg}/80 backdrop-blur border-b ${theme.border}`}>
+      <header className={`sticky top-0 z-50 ${theme.bg}/90 backdrop-blur-md border-b ${theme.border}`}>
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#hero" className={`${theme.text} font-bold text-lg tracking-widest`}>
+          <a href="#hero" className={`${theme.text} font-bold text-base sm:text-lg tracking-widest whitespace-nowrap`}>
             &lt;VaidehiDubey/&gt;
           </a>
           <nav className="hidden md:flex gap-8 text-sm items-center">
@@ -72,7 +72,7 @@ const [dark, setDark] = useState(false);
       ))}
       <button
         onClick={() => setDark(!dark)}
-        className={`px-2 py-1 rounded-full border ${theme.border} ${theme.textAlt} ${theme.hover}`}
+        className={`px-3 py-2 rounded-full border ${theme.border} ${theme.textAlt} ${theme.hover}`}
       >
         {dark ? "☀" : "☾"}
       </button>
@@ -103,7 +103,7 @@ const [dark, setDark] = useState(false);
     initial={{ x: "100%" }}
     animate={{ x: menuOpen ? 0 : "100%" }}
     transition={{ duration: 0.3 }}
-    className={` fixed top-14 h-fit w-full md:hidden overflow-hidden backdrop-blur ${theme.bg} shadow-lg`}
+    className={` fixed top-14 h-fit w-full md:hidden overflow-hidden backdrop-blur-sm opacity-85 ${theme.bg} shadow-lg`}
   >
     <div className="flex flex-col items-center py-4 gap-4">
       {["About", "Skills", "Experience", "Projects", "Contact"].map((label) => (
@@ -126,15 +126,15 @@ const [dark, setDark] = useState(false);
   </motion.div>
       </header>
 
-      <main id="about" className="max-w-6xl mx-auto px-6 py-16">
+      <main id="about" className="max-w-6xl mx-auto px-6 pb-16">
         {/* ABOUT */}
-        <section className="mt-24 md:mt:0 grid md:grid-cols-2 gap-12 items-center">
+        <section className="mt-10 md:mt:0 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className={`text-4xl md:text-6xl font-extrabold ${theme.text}`}
+              className={`text-4xl font-extrabold whitespace-no-wrap ${theme.text}`}
             >
               &gt; Vaidehi Dubey
             </motion.h1>
@@ -214,7 +214,8 @@ const [dark, setDark] = useState(false);
                 whileHover={{ scale: 1.02, boxShadow: `5px 5px 10px ${dark ? "#f59e0b" : "#b45309"}` }}
                 className={`p-6 rounded-xl ${theme.cardBg} border ${theme.border} shadow`}
               >
-                <h3 className={`text-xl font-semibold ${theme.text}`}>{exp.role} — {exp.company}</h3>
+                <h3 className={`text-xl font-semibold ${theme.text}`}>{exp.company}</h3>
+                <h6 className={`text-md font-bold whitespace-nowrap ${theme.text}`}>{exp.role}</h6>
                 <p className={`text-sm mb-4 ${theme.textAlt}`}>{exp.duration}</p>
                 <ul className="list-disc list-inside space-y-2">
                   {exp.details.map((d, i) => (
@@ -282,7 +283,7 @@ const [dark, setDark] = useState(false);
 
         {/* CONTACT */}
         <section id="contact" className="mt-24 text-center">
-          <h2 className={`text-2xl font-bold ${theme.text} mb-6`}>Contact</h2>
+          <h2 className={`text-2xl font-bold ${theme.text} mb-1`}>Contact</h2>
           <p className="mb-6">Let's connect and collaborate!</p>
           <div className="flex justify-center gap-6 flex-wrap">
             <a href="https://github.com/cyber-scribe" target="_blank" rel="noopener noreferrer" className={`p-3 rounded-full ${theme.cardBg} ${theme.hover}`}>
