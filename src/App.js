@@ -148,7 +148,7 @@ const [dark, setDark] = useState(false);
               <p>I enjoy problem-solving, turning ideas into practical solutions, and contributing in collaborative environments. Curious learner who see challenges as opportunities to learn and create impact.</p>
             </motion.p>
             <a
-              href="https://drive.google.com/file/d/1o-szm1iXZ_QTCMSvnBky87Roq4L_YLtR/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rSPtLepUKz5EEmV7RE32GfjUgfpbeM_p/view?usp=drive_link"
               download
               className={`mt-6 inline-block px-6 py-2 rounded-lg border ${theme.border} ${theme.textAlt} ${theme.hover} transition`}
             >
