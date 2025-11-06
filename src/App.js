@@ -6,10 +6,11 @@ import { Github, Linkedin, ExternalLink } from "lucide-react";
 const projects = [
   { id: 1, title: "Word Scramble Game", img: "A.png", github: "https://github.com/cyber-scribe/wordScrambleGame", live: "https://cyber-scribe.github.io/wordScrambleGame/" },
   { id: 2, title: "Link to QR Generator", img: "B.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR", live: "https://link2qr-qzej.onrender.com" },
-  { id: 3, title: "E-Learning Management", img: "C.png", github: "https://github.com/cyber-scribe/MiniProject", live: "https://cyber-scribe.github.io/MiniProject/" },
-  { id: 4, title: "Password Analyzer", img: "D.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter-a22o.onrender.com" },
-  { id: 5, title: "Temperature Convertor", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc-m1vm.onrender.com" },
-  { id: 6, title: "Weather App", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-9g05.onrender.com"},
+  { id: 3, title: "Digital Notice Board Platform", img: "C.png", github: "https://github.com/cyber-scribe/campusBulletin", live: "https://campusbulletin.onrender.com/" },
+  { id: 4, title: "E-Learning Management", img: "D.png", github: "https://github.com/cyber-scribe/MiniProject", live: "https://cyber-scribe.github.io/MiniProject/" },
+  { id: 5, title: "Password Analyzer", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter-a22o.onrender.com" },
+  { id: 6, title: "Temperature Convertor", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc-m1vm.onrender.com" },
+  { id: 7, title: "Weather App", img: "G.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-9g05.onrender.com"},
 ];
 
 const skills = {
