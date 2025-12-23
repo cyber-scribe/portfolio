@@ -40,7 +40,7 @@ const experience = [
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
   const [showMore, setShowMore] = useState(false);
 
   const theme = {
