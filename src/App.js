@@ -4,13 +4,15 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, ExternalLink } from "lucide-react";
 
 const projects = [
-  { id: 1, title: "Word Scramble Game", img: "A.png", github: "https://github.com/cyber-scribe/wordScrambleGame", live: "https://cyber-scribe.github.io/wordScrambleGame/" },
-  { id: 2, title: "Link to QR Generator", img: "B.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR", live: "https://link2qr-qzej.onrender.com" },
-  { id: 3, title: "Digital Notice Board Platform", img: "C.png", github: "https://github.com/cyber-scribe/campusBulletin", live: "https://campusbulletin.onrender.com/" },
-  { id: 4, title: "E-Learning Management", img: "D.png", github: "https://github.com/cyber-scribe/MiniProject", live: "https://cyber-scribe.github.io/MiniProject/" },
-  { id: 5, title: "Password Analyzer", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter-a22o.onrender.com" },
-  { id: 6, title: "Temperature Convertor", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc-m1vm.onrender.com" },
-  { id: 7, title: "Weather App", img: "G.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-9g05.onrender.com"},
+  { id: 1, title: "EcoLearn", img: "H.png", github: "https://github.com/cyber-scribe/ecoLearn", live: "https://ecolearn-8bbs.onrender.com"},
+  { id: 2, title: "Digital Notice Board Platform", img: "C.png", github: "https://github.com/cyber-scribe/campusBulletin", live: "https://campusbulletin.onrender.com/" },
+  { id: 3, title: "Word Scramble Game", img: "A.png", github: "https://github.com/cyber-scribe/wordScrambleGame", live: "https://cyber-scribe.github.io/wordScrambleGame/" },
+  { id: 4, title: "Link to QR Generator", img: "B.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR", live: "https://link2qr-qzej.onrender.com" },
+  { id: 5, title: "E-Learning Management", img: "D.png", github: "https://github.com/cyber-scribe/MiniProject", live: "https://cyber-scribe.github.io/MiniProject/" },
+  { id: 6, title: "Password Analyzer", img: "E.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer", live: "https://pass-o-meter-a22o.onrender.com" },
+  { id: 7, title: "Temperature Convertor", img: "F.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter", live: "https://temp-calc-m1vm.onrender.com" },
+  { id: 8, title: "Weather App", img: "G.png", github: "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project", live: "https://weather-fetch-9g05.onrender.com"},
+ 
 ];
 
 const skills = {
@@ -149,7 +151,7 @@ export default function App() {
               <p>I enjoy problem-solving, turning ideas into practical solutions, and contributing in collaborative environments. Curious learner who see challenges as opportunities to learn and create impact.</p>
             </motion.p>
             <a
-              href="https://drive.google.com/file/d/1rSPtLepUKz5EEmV7RE32GfjUgfpbeM_p/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1tddA4NXhg2wxQnFR2fOkcmG8ZOn8Kptb/"
               download
               className={`mt-6 inline-block px-6 py-2 rounded-lg border ${theme.border} ${theme.textAlt} ${theme.hover} transition`}
             >
