@@ -148,7 +148,7 @@ export default function App() {
             href="#hero"
             className={`${theme.text} font-bold text-base sm:text-lg tracking-widest whitespace-nowrap`}
           >
-            &lt; VaidehiDubey / &gt;
+            &lt;VaidehiDubey/&gt;
           </a>
 
           <nav className="hidden md:flex gap-8 text-sm items-center">
