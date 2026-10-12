@@ -40,12 +40,20 @@ const projects = [
       "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR",
     live: "https://link2qr-qzej.onrender.com",
   },
+  // {
+  //   id: 6,
+  //   title: "E-Learning Management",
+  //   img: "D.png",
+  //   github: "https://github.com/cyber-scribe/MiniProject",
+  //   live: "https://cyber-scribe.github.io/MiniProject/",
+  // },
   {
     id: 6,
-    title: "E-Learning Management",
-    img: "D.png",
-    github: "https://github.com/cyber-scribe/MiniProject",
-    live: "https://cyber-scribe.github.io/MiniProject/",
+    title: "LoopOut",
+    img: "J.png",
+    github:
+      "https://github.com/cyber-scribe/loop-out",
+    live: "https://loop-out.onrender.com",
   },
   {
     id: 7,
