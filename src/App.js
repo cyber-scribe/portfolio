@@ -465,7 +465,6 @@ export default function App() {
                       aria-label={`${p.title} GitHub repository`}
                     >
                       <Github className="h-4 w-4" />
-                      GitHub
                     </a>
 
                     <a
@@ -476,7 +475,6 @@ export default function App() {
                       aria-label={`${p.title} live demo`}
                     >
                       <ExternalLink className="h-4 w-4" />
-                      Live Demo
                     </a>
                   </div>
                 </div>
