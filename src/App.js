@@ -8,6 +8,7 @@ const projects = [
     id: 1,
     title: "EcoLearn",
     img: "H.png",
+    technologies: ["React.js", "JavaScript", "CSS3"],
     github: "https://github.com/cyber-scribe/ecoLearn",
     live: "https://ecolearn-8bbs.onrender.com",
   },
@@ -15,6 +16,7 @@ const projects = [
     id: 2,
     title: "MicroStep-Anchor",
     img: "I.png",
+    technologies: ["React.js", "JavaScript", "CSS3"],
     github: "https://github.com/cyber-scribe/microStepAnchor",
     live: "https://microstep-anchor.onrender.com",
   },
@@ -22,6 +24,7 @@ const projects = [
     id: 3,
     title: "Digital Notice Board Platform",
     img: "C.png",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/cyber-scribe/campusBulletin",
     live: "https://campusbulletin.onrender.com/",
   },
@@ -29,6 +32,7 @@ const projects = [
     id: 4,
     title: "Word Scramble Game",
     img: "A.png",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/cyber-scribe/wordScrambleGame",
     live: "https://cyber-scribe.github.io/wordScrambleGame/",
   },
@@ -36,14 +40,15 @@ const projects = [
     id: 5,
     title: "Link to QR Generator",
     img: "B.png",
-    github:
-      "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/cyber-scribe/prac_projects/tree/main/Link2QR",
     live: "https://link2qr-qzej.onrender.com",
   },
   // {
   //   id: 6,
   //   title: "E-Learning Management",
   //   img: "D.png",
+  //   technologies: ["React.js", "JavaScript", "CSS3"],
   //   github: "https://github.com/cyber-scribe/MiniProject",
   //   live: "https://cyber-scribe.github.io/MiniProject/",
   // },
@@ -51,14 +56,15 @@ const projects = [
     id: 6,
     title: "LoopOut",
     img: "J.png",
-    github:
-      "https://github.com/cyber-scribe/loop-out",
+    technologies: ["React.js", "JavaScript", "CSS3"],
+    github: "https://github.com/cyber-scribe/loop-out",
     live: "https://loop-out.onrender.com",
   },
   {
     id: 7,
     title: "Password Analyzer",
     img: "E.png",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
     github:
       "https://github.com/cyber-scribe/prac_projects/tree/main/Password_Analyzer",
     live: "https://pass-o-meter-a22o.onrender.com",
@@ -67,6 +73,7 @@ const projects = [
     id: 8,
     title: "Temperature Convertor",
     img: "F.png",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
     github:
       "https://github.com/cyber-scribe/prac_projects/tree/main/Temp%20converter",
     live: "https://temp-calc-m1vm.onrender.com",
@@ -75,6 +82,7 @@ const projects = [
     id: 9,
     title: "Weather App",
     img: "G.png",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Weather API"],
     github:
       "https://github.com/cyber-scribe/prac_projects/tree/main/weather_api_project",
     live: "https://weather-fetch-9g05.onrender.com",
@@ -169,7 +177,7 @@ export default function App() {
                 >
                   {label}
                 </a>
-              )
+              ),
             )}
 
             <button
@@ -189,9 +197,7 @@ export default function App() {
               aria-label="Toggle menu"
             >
               <motion.span
-                animate={
-                  menuOpen ? { rotate: 45, y: 9 } : { rotate: 0, y: 0 }
-                }
+                animate={menuOpen ? { rotate: 45, y: 9 } : { rotate: 0, y: 0 }}
                 className={`block h-0.5 w-6 rounded bg-current ${theme.text}`}
               />
 
@@ -228,7 +234,7 @@ export default function App() {
                 >
                   {label}
                 </a>
-              )
+              ),
             )}
 
             <button
@@ -264,15 +270,12 @@ export default function App() {
               transition={{ delay: 0.6, duration: 1 }}
               className={`mt-4 text-lg ${theme.textAlt}`}
             >
-              <h3 className="font-bold text-xl mb-2">
-                Full-stack Developer
-              </h3>
+              <h3 className="font-bold text-xl mb-2">Full-stack Developer</h3>
 
               <p>
-                I enjoy problem-solving, turning ideas into practical
-                solutions, and contributing in collaborative environments.
-                Curious learner who sees challenges as opportunities to learn
-                and create impact.
+                I enjoy problem-solving, turning ideas into practical solutions,
+                and contributing in collaborative environments. Curious learner
+                who sees challenges as opportunities to learn and create impact.
               </p>
             </motion.div>
 
@@ -308,9 +311,7 @@ export default function App() {
                 key={category}
                 whileHover={{
                   scale: 1.02,
-                  boxShadow: `2px 2px 6px ${
-                    dark ? "#f59e0b" : "#b45309"
-                  }`,
+                  boxShadow: `2px 2px 6px ${dark ? "#f59e0b" : "#b45309"}`,
                 }}
                 transition={{ type: "spring", stiffness: 200 }}
                 className={`p-8 rounded-2xl ${theme.cardBg} border ${theme.border} shadow-lg flex flex-col`}
@@ -339,9 +340,7 @@ export default function App() {
 
         {/* EXPERIENCE */}
         <section id="experience" className="mt-24 scroll-mt-24">
-          <h2
-            className={`text-2xl font-bold ${theme.text} text-center mb-10`}
-          >
+          <h2 className={`text-2xl font-bold ${theme.text} text-center mb-10`}>
             Experience
           </h2>
 
@@ -355,9 +354,7 @@ export default function App() {
                 transition={{ delay: idx * 0.1 }}
                 whileHover={{
                   scale: 1.02,
-                  boxShadow: `5px 5px 10px ${
-                    dark ? "#f59e0b" : "#b45309"
-                  }`,
+                  boxShadow: `5px 5px 10px ${dark ? "#f59e0b" : "#b45309"}`,
                 }}
                 className={`p-6 rounded-xl ${theme.cardBg} border ${theme.border} shadow`}
               >
@@ -386,77 +383,114 @@ export default function App() {
         </section>
 
         {/* PROJECTS */}
+
         <section id="projects" className="mt-24 scroll-mt-24">
-          <h2 className={`text-2xl font-bold ${theme.text} text-center`}>
+          <h2 className={`text-3xl font-bold ${theme.text} text-center`}>
             Projects
           </h2>
 
+          <p
+            className={`mt-3 text-center text-sm ${
+              dark ? "text-zinc-400" : "text-zinc-600"
+            }`}
+          >
+            A selection of projects I've built and deployed.
+          </p>
+
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects
-              .slice(0, showMore ? projects.length : 3)
-              .map((p, idx) => (
-                <motion.div
-                  key={p.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: idx * 0.1 }}
-                  className={`group relative rounded-xl overflow-hidden border ${theme.border} hover:shadow-amber-400/60`}
-                  whileHover={{
-                    scale: 1.03,
-                    boxShadow: `2px 2px 5px ${
-                      dark ? "#f59e0b" : "#b45309"
-                    }`,
-                  }}
-                >
+            {projects.slice(0, showMore ? projects.length : 3).map((p, idx) => (
+              <motion.div
+                key={p.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: (idx % 3) * 0.1 }}
+                whileHover={{
+                  y: -5,
+                  boxShadow: `0 8px 24px ${
+                    dark ? "rgba(245, 158, 11, 0.15)" : "rgba(180, 83, 9, 0.15)"
+                  }`,
+                }}
+                className={`group overflow-hidden rounded-xl border ${theme.border} ${theme.cardBg} transition-colors`}
+              >
+                {/* Project image */}
+                <div className="overflow-hidden">
                   <img
                     src={p.img}
-                    alt={p.title}
-                    className="w-full h-48 object-cover group-hover:blur-sm transition"
+                    alt={`${p.title} project preview`}
+                    loading="lazy"
+                    className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                </div>
 
-                  <div
-                    className={`absolute inset-0 ${theme.bg}/90 opacity-0 group-hover:opacity-100 transition flex flex-col items-center justify-center`}
-                  >
-                    <h3 className="text-lg font-bold text-amber-600 mb-4">
-                      {p.title}
-                    </h3>
+                {/* Project details */}
+                <div className="flex flex-col p-5">
+                  <h3 className={`text-lg font-bold ${theme.text}`}>
+                    {p.title}
+                  </h3>
 
-                    <div className="flex gap-4">
-                      <a
-                        href={p.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`flex items-center gap-2 px-2 py-2 font-bold ${theme.cardBg} border ${theme.border} ${theme.text} rounded-full ${theme.hover} transition`}
-                        onClick={(e) => e.stopPropagation()}
-                        aria-label={`${p.title} GitHub repository`}
+                  {/* Technology stack */}
+                  {p.technologies?.length > 0 && (
+                    <div className="mt-4">
+                      <p
+                        className={`mb-2 text-xs font-semibold uppercase tracking-wider ${
+                          dark ? "text-zinc-400" : "text-zinc-600"
+                        }`}
                       >
-                        <Github className="w-4 h-4" />
-                      </a>
+                        Tech Stack
+                      </p>
 
-                      <a
-                        href={p.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`flex items-center gap-2 px-2 py-2 font-bold ${theme.cardBg} border ${theme.border} ${theme.text} rounded-full ${theme.hover} transition`}
-                        onClick={(e) => e.stopPropagation()}
-                        aria-label={`${p.title} live project`}
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                      </a>
+                      <div className="flex flex-wrap gap-2">
+                        {p.technologies.map((tech) => (
+                          <span
+                            key={tech}
+                            className={`rounded-md border ${theme.border} px-2.5 py-1 text-xs ${theme.textAlt} ${
+                              dark ? "bg-zinc-900/70" : "bg-white"
+                            }`}
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
+                  )}
+
+                  {/* Project links */}
+                  <div className="mt-6 flex items-center gap-3">
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`inline-flex items-center gap-2 rounded-lg border ${theme.border} px-3 py-2 text-sm ${theme.textAlt} ${theme.hover} transition`}
+                      aria-label={`${p.title} GitHub repository`}
+                    >
+                      <Github className="h-4 w-4" />
+                      GitHub
+                    </a>
+
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-3 py-2 text-sm font-semibold text-zinc-950 transition hover:bg-amber-400"
+                      aria-label={`${p.title} live demo`}
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                      Live Demo
+                    </a>
                   </div>
-                </motion.div>
-              ))}
+                </div>
+              </motion.div>
+            ))}
           </div>
 
           {projects.length > 3 && (
-            <div className="mt-8 text-center">
+            <div className="mt-10 text-center">
               <button
                 onClick={() => setShowMore(!showMore)}
-                className={`px-6 py-2 rounded-lg border ${theme.border} ${theme.textAlt} ${theme.hover} transition`}
+                className={`rounded-lg border ${theme.border} px-6 py-2.5 font-medium ${theme.textAlt} ${theme.hover} transition`}
               >
-                {showMore ? "View Less <<" : "View More >>"}
+                {showMore ? "Show Less ↑" : "View All Projects →"}
               </button>
             </div>
           )}
@@ -464,9 +498,7 @@ export default function App() {
 
         {/* CONTACT */}
         <section id="contact" className="mt-24 text-center scroll-mt-24">
-          <h2 className={`text-2xl font-bold ${theme.text} mb-1`}>
-            Contact
-          </h2>
+          <h2 className={`text-2xl font-bold ${theme.text} mb-1`}>Contact</h2>
 
           <p className="mb-6">Let's connect and collaborate!</p>
 
